@@ -1,0 +1,20 @@
+{
+  "name": "jasmine-scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-browser-runner": "^0.9.0",
+    "jasmine-core": "^3.9.0",
+    "selenium-webdriver": "^4.0.0-rc-2"
+  },
+  "dependencies": {
+    "protractor": "^7.0.0"
+  }
+}
