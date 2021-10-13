@@ -1,4 +1,5 @@
 // An example configuration file.
+var buildName = process.env.BROWSERSTACK_BUILD_NAME
 exports.config = {
     directConnect: false,
 
@@ -7,7 +8,7 @@ exports.config = {
 
     // Capabilities to be passed to the webdriver instance.
     'capabilities': {
-        'build': process.env.BROWSERSTACK_BUILD_NAME,
+        'build': buildName,
         'name': 'single_test',
         'browserName': 'chrome',
         'resolution': '1024x768',
