@@ -1,4 +1,5 @@
 // An example configuration file.
+console.log(process.env.BROWSERSTACK_BUILD_NAME);
 exports.config = {
     directConnect: false,
 
